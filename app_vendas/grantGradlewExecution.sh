@@ -1,1 +1,1 @@
-cd $BITRISE_SOURCE_DIR/app_vendas/android && chmod +x gradlew
+cd $BITRISE_SOURCE_DIR/app_vendas/android && chmod -R +x ./
