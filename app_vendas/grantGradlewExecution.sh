@@ -1,0 +1,1 @@
+cd $BITRISE_SOURCE_DIR/$PROJECT_LOCATION && chmod +x gradlew
