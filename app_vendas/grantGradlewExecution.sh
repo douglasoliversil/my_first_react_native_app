@@ -1,1 +1,1 @@
-cd $BITRISE_SOURCE_DIR/app_vendas/android && chmod -R +x ./
+cd /Users/vagrant/git/app_vendas && chmod -R +x android/
