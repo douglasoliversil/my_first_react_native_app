@@ -1,1 +1,0 @@
-cd /Users/vagrant/git/app_vendas && chmod -R +x android/
