@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Install React Native Dependencies') {
+        stage('Build') {
             sh 'cd app_vendas && npm install'
         }
-        stage('Build Android') {
+        stage('Build') {
             sh 'cd android && ./gradlew assembleDebug'
             archiveArtifacts artifacts: '*.apk', followSymlinks: false
         }
