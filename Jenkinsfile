@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage('Build') {
-            step {
+            steps {
                 sh 'cd app_vendas && npm install'
             }
         }
